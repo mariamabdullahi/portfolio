@@ -1,0 +1,206 @@
+header{
+    background-color:black;
+    padding: 20px;
+}
+nav ul{
+    text-decoration:none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content:center ;
+    display:flex;
+}
+nav li{
+    display: inline;
+    margin-right: 50px;
+    font-size: 20px;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
+
+/* Add hover effect to the navigation link*/
+nav ul li a:hover{
+    color: red;
+}
+
+/*hero-section*/
+.hero{
+    background-color:#081b29;
+    padding: 1%;
+    text-align: left; 
+}
+.hero-content{
+    color:white;
+}
+.hero h1{
+font-size: 50px;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+}
+.button{
+    background-color: red;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* styling about section */
+.about-me{
+    text-align: center;
+    max-width: 400px;
+    margin:0 auto;
+       
+}
+
+/* main heading */
+h1{
+    font-size: 24px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* styling our paragraph */
+p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height:1.5 ;
+    color: black;
+    background-color: azure;
+    padding: 10px;
+    border: 1px solid black;
+}
+    
+
+/* style the unordered list */
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* styling our list comment */
+li{
+    display: inline-block;
+    margin-right:10px ;
+}
+
+/* stling our link within the list item */
+li a{
+    text-decoration: none;
+    color: blue;
+    transition: background-color 0.3;
+}
+
+/* style for link hover state */
+li a:hover{
+    background-color: blue;
+    color:whitesmoke ;
+}
+
+/* styling the visited link */
+link a:visited{
+    color:blue;
+}
+
+/* general link styling */
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* stling images */
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+ /*service section style*/
+.service-card{
+    width: 30px;
+    background: whitesmoke;
+    padding: 0px;
+    border-radius:none;
+    border: none;
+    box-sizing: none;
+}
+.service-card h3 {
+    color: black;
+}
+.service-card p{
+    color: black;
+    margin-top: 5px;
+    border: none;
+}
+
+/* Contact */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(0 0 0.1);
+}
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 40px;
+}
+.form-group{
+    margin-bottom: 20px;
+   
+}
+.form-group label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.form-group input[type="submit"]{
+    background-color: skyblue;
+    color: white;
+    cursor:pointer;
+}
+.form-group input[type="submit"]:hover{
+    background-color: blue;
+}
+.form-group textarea{
+    height: 120px;
+}
+/*for screen smaller than 768 */
+@media screen and (max-width: 767px){
+  nav > ul >li > a{
+    font-size: 15px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    margin-right: -30px !important;
+  }    
+
+
+}
+
+
+
